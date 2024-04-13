@@ -1,3 +1,3 @@
-# Correcting Biased Centered Kernel Alignment Measures in Biological and Artificial Neural Networks (ICLR 2024)
+# Correcting Biased Centered Kernel Alignment Measures in Biological and Artificial Neural Networks (Re-Align, ICLR 2024)
 
 This repo ...
