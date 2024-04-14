@@ -1,6 +1,7 @@
 # Correcting Biased Centered Kernel Alignment Measures in Biological and Artificial Neural Networks (Re-Align, ICLR 2024)
 
 [Link to Paper](https://openreview.net/forum?id=E1NRrGtIHG)
+
 NB: the camera-ready version is currently in preparation and will be added here once officially submitted.
 
 # Abstract 
@@ -42,10 +43,12 @@ We next demonstrate the alignment scores between fMRI and MEG data from the THIN
 
 # Full Shuffling (ResNet18)
 Please see the paper for detailed explanations of these results. 
+
 <img src="https://github.com/Alxmrphi/correcting_CKA_alignment/blob/main/figures/fig3-resnet_rois.png" width="700" height="390">
 
 ## Partial Shuffling (ResNet18)
 Please see the paper for detailed explanations of these results. 
+
 <img src="https://github.com/Alxmrphi/correcting_CKA_alignment/blob/main/figures/fig5-partial_shuffle.png" width="700" height="390">
 
 # Misc
