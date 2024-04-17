@@ -1,3 +1,6 @@
+# This is taken from Simon Kornblith's CKA tutorial notebook on Google 
+# https://github.com/google-research/google-research/blob/master/representation_similarity/Demo.ipynb
+
 import numpy as np
 
 def gram_linear(x):
