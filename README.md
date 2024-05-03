@@ -30,7 +30,10 @@ unshuffled data, indicating an undesirable lack of sensitivity to stimuli-driven
 ral responses. Positive alignment of true stimuli-driven responses is only achieved
 by using debiased CKA. Lastly, we report findings that suggest biased CKA is
 sensitive to the inherent structure of neural data, only differing from shuffled data
-when debiased CKA detects stimuli-driven alignment
+when debiased CKA detects stimuli-driven alignment.
+
+## What's the issue?
+<img src="https://github.com/Alxmrphi/correcting_CKA_alignment/blob/main/figures/whats_the_issue.png" width="500" height="290">
 
 ## Biased CKA on Random Matrices
 One issue we highlight is that CKA without the debiasing step can be artificially driven up to its maximum by purely increasing the ratio of features to samples. This occurs in random matrices that have no shared structure. However, methods to correct for this bias in CKA (debiased CKA & RV2) correctly determine that no alignment is present as the feature dimensionality increases from a fixed number of samples (rows). The issue with biased CKA is not present in the typical scenario of tall, skinny matrices. However, in the realm of neural data, we often see very high-dimensional feature vectors over a limited number of samples. It's in this scenario that biased CKA has the potential to suggest that alignment exists when this is not the case. 
