@@ -1,6 +1,7 @@
 # Correcting Biased Centered Kernel Alignment Measures in Biological and Artificial Neural Networks (Re-Align, ICLR 2024)
 
 [Paper](https://arxiv.org/abs/2405.01012)
+
 [Poster](https://github.com/Alxmrphi/correcting_CKA_alignment/blob/main/ReAlign_ICLR_AlexMurphy-01.png)
 
 
